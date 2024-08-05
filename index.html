@@ -1,84 +1,103 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body style="background-image: url('https://images.unsplash.com/photo-1710609942195-b9dab8f48fc6?q=80&w=2268&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-    
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: forestgreen !important;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Hroman_codes</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
+</head>
+
+
+<body
+  style="background-image: url('https://images.unsplash.com/photo-1710609942195-b9dab8f48fc6?q=80&w=2268&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; background-position: center; background-repeat: no-repeat; font-family: 'Ga Maamli', sans-serif;">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: forestgreen !important;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color: white !important;">Hroman_codes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" style="color: white !important;">
+          <a class="nav-link active" aria-current="page" href="#" style="color: white !important;">Home</a>
+          <a class="nav-link" href="#" style="color: white !important;">About</a>
+          <a class="nav-link" href="#" style="color: white !important;">Skills</a>
+          <a class="nav-link" href="#" style="color: white !important;">Contact</a>
+          <a class="nav-link" href='/plantid.html' style="color: white !important;">PLANT ID</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- this is the beginning of the about section -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-6 text-center offset-3">
+        <h1 style="color: white;">About</h1>
+        <img
+          src="https://media.licdn.com/dms/image/C5603AQFSFTTwUyoBdQ/profile-displayphoto-shrink_400_400/0/1656609675684?e=1726704000&v=beta&t=AhwrGHNNpLbRkBdIN9KQoHKc3BUg_9VSrrvC8qja7H8"
+          style="border-radius: 50%; width:200px">
+        <p style="color: white;" class="mt-3"> I am a Freelance Software Engineer. I design and code beautifully simple
+          things, and I love what I do. I worked for startups in tech-ed, food tech, and the non-profit sector. I'm
+          equipped with just the right tools and I am passionate about learning from others. </p>
+      </div>
+    </div>
+  </div>
+  <!-- this is the end of the about section  -->
+
+  <!-- this is the beginning of the skills section  -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col text-center">
+        <h1 style="color: white;">
+          Skills
+        </h1>
+
+        <ul class="list-inline" style="color: white;">
+          <li class="list-inline-item"
+            style="border-style: solid !important; border-width: 5px !important; padding: 10px; border-color: forestgreen;">
+            HTML</li>
+          <li class="list-inline-item"
+            style="border-style: solid !important; border-width: 5px !important; padding: 10px; border-color: forestgreen;">
+            CSS</li>
+          <li class="list-inline-item"
+            style="border-style: solid !important; border-width: 5px !important; padding: 10px; border-color: forestgreen;">
+            Javascript</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <!-- this is the end of the skills section -->
+
+  <!-- this is the beginning of the contact section  -->
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h1 style="color: white;">Contact</h1>
+        <button type="button" class="btn btn-primary" id="contact">
+          <a href="mailto:romanh99@gmail.com">Email Me</a>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Skills</a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href='/plantid.html'>PLANT ID</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <!-- this is the beginning of the about section -->
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-6 text-center offset-3">
-          <h1>About</h1>
-          <img 
-  src="https://media.licdn.com/dms/image/C5603AQFSFTTwUyoBdQ/profile-displayphoto-shrink_400_400/0/1656609675684?e=1726704000&v=beta&t=AhwrGHNNpLbRkBdIN9KQoHKc3BUg_9VSrrvC8qja7H8" 
-            style="border-radius: 50%; width:200px"
-          >
-          <p class="mt-3"> I am a Freelance Software Engineer. I design and code beautifully simple things, and I love what I do. I worked for startups in tech-ed, food tech, and the non-profit sector. I'm equipped with just the right tools and I am passionate about learning from others. </p>
-        </div>
       </div>
     </div>
-    <!-- this is the end of the about section  -->
-
-    <!-- this is the beginning of the skills section  -->
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col text-center">
-          <h1>
-            Skills
-          </h1>
-
-          <ul class="list-inline">
-            <li class="list-inline-item" style="border-style: solid !important; border-width: 5px !important; padding: 10px; border-color: forestgreen;">HTML</li>
-            <li class="list-inline-item" style="border-style: solid !important; border-width: 5px !important; padding: 10px; border-color: forestgreen;">CSS</li>
-            <li class="list-inline-item" style="border-style: solid !important; border-width: 5px !important; padding: 10px; border-color: forestgreen;">Javascript</li>
-          </ul>
-          
-        </div>
-      </div>
-    </div> 
-    <!-- this is the end of the skills section -->
-
-    <!-- this is the beginning of the contact section  -->
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h1>Contact</h1>
-          <button type="button" class="btn btn-primary"  id="contact">
-            <a href="mailto:romanh99@gmail.com" >Email Me</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    
+  </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-  
-  </body>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+  <script src="/script.js"></script>
+</body>
+
 </html>
